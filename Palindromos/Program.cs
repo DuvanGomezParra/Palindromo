@@ -22,6 +22,17 @@ namespace Palindromos
 
             Console.WriteLine($"la palabra es: {palabra}");
 
+            if (palabra[0] == palabra[palabra.Length - 1])
+            {
+                Console.WriteLine($"Es palindroma");
+            }
+            else
+            {
+                Console.WriteLine("No es Palindroma");
+            }
+
+           
+
             Console.ReadKey();
         }
     }
